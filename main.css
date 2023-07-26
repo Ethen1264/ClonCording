@@ -6,8 +6,7 @@
   font-style: normal;
 }
 body {
-  font-family: 'GmarketSansMedium';
-  min-width: 1120px;
+
 }
 
 body, ul, li {
@@ -24,34 +23,53 @@ a {
 /* custom */
 header {
   border-bottom: 1px solid rgba(0,0,0,0.1);
-  height: 80px;
-  align-content: center;
+
 }
 .inner {
-  min-width: 1120px;
-
   width: 1080px;
   margin-left: auto;
   margin-right:auto;
   display: flex;
-
+  height: 80px;
+}
+.inner .logo {
+  margin: 30px 0;
 }
 .nav_inner {
   display: flex;
   margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .nav_inner .text {
-  min-width: 80px;
+  display: block;
   margin: 0 10px;
   padding: 0 10px;
-  font-size: 18px;
+  font-size: 15px;
 }
+.nav_inner .text:hover {
+  text-decoration: underline;
+}
+
 .inner .submit-btn {
   background: #fede22;
-  padding: 15px;
+  font-size: 14px;
+  padding: 13px 19px;
+  margin: 0 20px;
   border-radius: 22px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
+.inner .glove {
+  margin: auto 21px auto 20px;
+  filter: brightness(0);
+}
+.section-top-img {
+  background-color: rgb(255, 239, 107);
+  height: 720px;
+} 
 .section-top-img .rion-img {
-  width: 100%;
+  max-width: 1170px;
+  height: 884px;
   display: block;
 }
