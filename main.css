@@ -72,6 +72,7 @@ header .inner .glove {
   padding-left: 30px;
   padding-right: 20px;
 }
+/* section */
 .section1 .rion_container {
   padding-top: 81px;
   background-color: rgb(255, 239, 107);
@@ -118,6 +119,9 @@ header .inner .glove {
   padding: 17px 43px;
   align-self: center;
 }
+.section1 .rion_container ul li .google_play:hover {
+  text-decoration: underline;
+}
 .section1 .rion_container ul li .app_store {
   position: absolute;
   top: 562px;
@@ -130,4 +134,57 @@ header .inner .glove {
   margin: 0 10px;
   padding: 17px 50px;
   align-self: center;
+}
+.section1 .rion_container ul li .app_store:hover {
+  text-decoration: underline;
+}
+/* section2 */
+.section2  {
+  margin-top: 165px;
+  height: 720px;
+  position: relative;
+}
+.section2 .account_phone img{
+  width: 473px;
+  height: 678px;
+  position: absolute;
+  top: 36px;
+  left: 345px;
+}
+.section2 .account_text {
+  position: absolute;
+  top: 220px;
+  right: 360px;
+
+}
+.section2 .account_text h3{
+  font-size: 40px;
+  margin: 0;
+}
+.section2 .account_text p{
+  font-size: 15px;
+  line-height: 1.7;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.section2 .account_text .account-btn{
+
+  background-color: #f6f6f6;
+  font-size: 16px;
+  border-radius: 10px;
+  margin: 0 10px;
+  padding: 20px 45px;
+  align-self: center;
+  position: absolute;
+  top: 210px;
+}
+.section2 .account_text .account-btn:hover{
+  text-decoration: underline;
+}
+.section2 .account_text .left{
+  width: 6px;
+  height: 9px;
+  left: 230px;
+  top: 237px;
+  position: absolute;
 }
