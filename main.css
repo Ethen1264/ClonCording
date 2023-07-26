@@ -6,7 +6,8 @@
   font-style: normal;
 }
 body {
-
+  min-width: 1120px;
+  height: 5000px;
 }
 
 body, ul, li {
@@ -19,57 +20,114 @@ a {
   color: inherit;
   text-decoration: none;
 }
+p{
+  line-height: 1.95;
+}
 
 /* custom */
 header {
+  display: block;
+  width: 100%;
   border-bottom: 1px solid rgba(0,0,0,0.1);
-
+  position: fixed;
+  background-color: #fff;
+  z-index: 9;
 }
-.inner {
+header .inner {
   width: 1080px;
-  margin-left: auto;
-  margin-right:auto;
+  margin: 0 auto;
   display: flex;
   height: 80px;
+
 }
-.inner .logo {
+header .inner .logo {
   margin: 30px 0;
+  width: 116px;
+  height: 20px;
 }
-.nav_inner {
-  display: flex;
+header .inner .nav_inner {
   margin-left: auto;
-  margin-top: auto;
-  margin-bottom: auto;
+  display: flex;
 }
-.nav_inner .text {
-  display: block;
+header .inner .nav_inner .text{
   margin: 0 10px;
   padding: 0 10px;
-  font-size: 15px;
+  align-self: center;
 }
-.nav_inner .text:hover {
+header .inner .nav_inner .text:hover{
   text-decoration: underline;
 }
-
-.inner .submit-btn {
-  background: #fede22;
+header .inner .submit-btn {
+  background-color: #fede22;
+  border: 1px solid #fede22;
   font-size: 14px;
-  padding: 13px 19px;
-  margin: 0 20px;
   border-radius: 22px;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin: 0 10px;
+  padding: 13px 17px;
+  align-self: center;
 }
-.inner .glove {
-  margin: auto 21px auto 20px;
+header .inner .glove {
   filter: brightness(0);
+  padding: 30px 0px;
+  padding-left: 30px;
+  padding-right: 20px;
 }
-.section-top-img {
+.section1 .rion_container {
+  padding-top: 81px;
   background-color: rgb(255, 239, 107);
   height: 720px;
-} 
-.section-top-img .rion-img {
-  max-width: 1170px;
+  
+}
+.section1 .rion_container .rion_img {
+  position: absolute;
+  width: 1200px;
   height: 884px;
   display: block;
+  background-repeat: no-repeat;
+  padding: 0 245px;
+}
+.section1 .rion_container {
+  position: relative;
+}
+.section1 .rion_container .main_text {
+  font-size: 49px;
+  position: absolute;
+  top: 170px;
+  left: 330px;
+}
+.section1 .rion_container .sub_text1 {
+  position: absolute;
+  top: 355px;
+  left: 335px;
+}
+.section1 .rion_container .sub_text2 {
+  position: absolute;
+  top: 430px;
+  left: 335px;
+}
+.section1 .rion_container ul li .google_play {
+  position: absolute;
+  top: 562px;
+  left: 325px;
+  border: 1px solid rgba(255, 255, 255, .3);
+  background-color: #fff;
+  font-size: 16.2px;
+  border-radius: 12px;
+  font-weight: bold;
+  margin: 0 10px;
+  padding: 17px 43px;
+  align-self: center;
+}
+.section1 .rion_container ul li .app_store {
+  position: absolute;
+  top: 562px;
+  left: 516px;
+  border: 1px solid rgba(255, 255, 255, .3);
+  background-color: #fff;
+  font-size: 16.2px;
+  border-radius: 12px;
+  font-weight: bold;
+  margin: 0 10px;
+  padding: 17px 50px;
+  align-self: center;
 }
