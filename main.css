@@ -24,6 +24,15 @@ p{
   line-height: 1.95;
 }
 
+/* middle line */
+
+.first_middle_line {
+  background-color: #fafafa;
+  width: 100%;
+  height: 32px;
+  padding: 0;
+}
+
 /* custom */
 header {
   display: block;
@@ -200,15 +209,6 @@ header .inner .glove {
   position: absolute;
 }         
 
-/* middle line */
-
-.first_middle_line {
-  background-color: #fafafa;
-  width: 100%;
-  height: 32px;
-  padding: 0;
-}
-
 /* Section deposit line */
 
 .section3  {
@@ -292,4 +292,132 @@ header .inner .glove {
   position: absolute;
   top: 310px;
   left: -5px;
+}         
+
+/* Section Bank book line */
+
+.section4  {
+  height: 745px;
+  position: relative;
+}
+.section4 .book_container {
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+}
+.section4 .book_phone img{
+  width: 459px;
+  height: 607px;
+  position: absolute;
+  top: 80px;
+  left: 118px;
+}
+.section4 .book_text {
+  position: absolute;
+  top: 210px;
+  right: 125px;
+
+}
+.section4 .book_text h3{
+  font-size: 40px;
+  margin: 0;
+}
+.section4 .book_text p{
+  font-size: 15px;
+  line-height: 1.7;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.section4 .book_text .book-btn{
+
+  background-color: #f6f6f6;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 18px 100px;
+  align-self: center;
+  position: absolute;
+  top: 240px;
+  right: 120px;
+}
+.section4 .book_text .book-btn:hover{
+  text-decoration: underline;
+}
+.section4 .book_text .book_left{
+  width: 6px;
+  height: 9px;
+  left: 175px;
+  top: 264px;
+  position: absolute;
+}      
+
+
+/* Section deposit line */
+
+.section5  {
+  margin-top: 0;
+  height: 650px;
+  position: relative;
+}
+.section5 .Savings_container {
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+}
+.section5 .Savings_phone img{
+  width: 492px;
+  height: 408px;
+  position: absolute;
+  top: 125px;
+  right: 70px;
+  margin-left: 120px;
+}
+.section5 .Savings_text {
+  position: absolute;
+  top: 180px;
+  left: 180px;
+
+}
+.section5 .Savings_text h3{
+  font-size: 40px;
+  margin: 0;
+}
+.section5 .Savings_text p{
+  font-size: 15px;
+  line-height: 1.7;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.section5 .Savings_text .Savings-btn1{
+  background-color: #f6f6f6;
+  font-size: 16px;
+  border-radius: 10px;
+  margin: 0 10px;
+  padding: 16px 50px;
+  align-self: center;
+  position: absolute;
+  top: 210px;
+  left: -10px;
+}
+.section5 .Savings_text .Savings-btn1:hover{
+  text-decoration: underline;
+}
+.section5 .Savings_text .Savings-btn1{
+  background-color: #f6f6f6;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 18px 95px;
+  align-self: center;
+  position: absolute;
+  top: 215px;
+
+}
+.section5 .Savings_text .Savings-btn2:hover{
+  text-decoration: underline;
+}
+.section5 .Savings_text .Savings_left{
+  width: 6px;
+  height: 9px;
+  left: 168px;
+  top: 240px;
+  position: absolute;
 }         
