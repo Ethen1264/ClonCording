@@ -76,6 +76,7 @@ header .inner .submit-btn {
   align-self: center;
 }
 header .inner .glove {
+  overflow: hidden;
   filter: brightness(0);
   padding: 30px 0px;
   padding-left: 30px;
@@ -96,6 +97,7 @@ header .inner .glove {
   margin: auto;
 }
 .section1 .rion_container .rion_img {
+  overflow: hidden;
   position: relative;
   width: 1200px;
   height: 884px;
@@ -165,6 +167,7 @@ header .inner .glove {
   margin: auto;
 }
 .section2 .account_phone img{
+  overflow: hidden;
   width: 473px;
   height: 678px;
   position: absolute;
@@ -207,6 +210,7 @@ header .inner .glove {
   left: 230px;
   top: 237px;
   position: absolute;
+  overflow: hidden;
 }         
 
 /* Section deposit line */
@@ -222,11 +226,14 @@ header .inner .glove {
   margin: auto;
 }
 .section3 .deposit_phone img{
+  opacity: 0;
+  display: none;
+  overflow: hidden;
   width: 409px;
   height: 722px;
   position: absolute;
   top: 20px;
-  right: 70px;
+  right: 0;
   margin-left: 120px;
 }
 .section3 .deposit_text {
@@ -279,6 +286,7 @@ header .inner .glove {
   left: 120px;
   top: 233px;
   position: absolute;
+  overflow: hidden;
 }         
 .section3 .deposit_text .left2{
   width: 6px;
@@ -286,18 +294,20 @@ header .inner .glove {
   left: 290px;
   top: 233px;
   position: absolute;
+  overflow: hidden;
 }         
 .section3 .deposit_text .time_line{
   width: 440px;
   position: absolute;
   top: 310px;
   left: -5px;
+  overflow: hidden;
 }         
 
 /* Section Bank book line */
 
 .section4  {
-  height: 745px;
+  height: 750px;
   position: relative;
 }
 .section4 .book_container {
@@ -306,10 +316,11 @@ header .inner .glove {
   margin: auto;
 }
 .section4 .book_phone img{
+  overflow: hidden;
   width: 459px;
   height: 607px;
   position: absolute;
-  top: 80px;
+  top: 88px;
   left: 118px;
 }
 .section4 .book_text {
@@ -348,6 +359,7 @@ header .inner .glove {
   left: 175px;
   top: 264px;
   position: absolute;
+  overflow: hidden;
 }      
 
 
@@ -364,6 +376,7 @@ header .inner .glove {
   margin: auto;
 }
 .section5 .Savings_phone img{
+  overflow: hidden;
   width: 492px;
   height: 408px;
   position: absolute;
@@ -420,4 +433,72 @@ header .inner .glove {
   left: 168px;
   top: 240px;
   position: absolute;
+  overflow: hidden;
 }         
+
+/* Section Overseas line */
+
+.section6  {
+  height: 750px;
+  position: relative;
+}
+.section6 .back-img {
+  height: 750px;
+  background-image: url("https://www.kakaobank.com/static/images/web/home_map.png");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position-x: -130px ;
+  background-position-y: center;
+}
+.section6 .Overseas_container {
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+}
+.section6 .Overseas_phone img{
+  opacity: 0;
+  display: none;
+  overflow: hidden;
+  width: 408px;
+  height: 715px;
+  position: absolute;
+  left: 150px;
+}
+.section6 .Overseas_text {
+  position: absolute;
+  top: 200px;
+  right: 170px;
+
+}
+.section6 .Overseas_text h3{
+  font-size: 40px;
+  margin: 0;
+}
+.section6 .Overseas_text p{
+  font-size: 15px;
+  line-height: 1.7;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.section6 .Overseas_text .Overseas-btn{
+
+  background-color: #f6f6f6;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 18px 95px;
+  align-self: center;
+  position: absolute;
+  top: 288px;
+  right: 90px;
+}
+.section6 .Overseas_text .Overseas-btn:hover{
+  text-decoration: underline;
+}
+.section6 .Overseas_text .Overseas_left{
+  width: 6px;
+  height: 9px;
+  left: 175px;
+  top: 313px;
+  position: absolute;
+  overflow: hidden;
+}      
