@@ -1,11 +1,12 @@
 /*common*/
 @font-face {
-  font-family: 'GmarketSansMedium';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
-  font-weight: normal;
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
   font-style: normal;
 }
 body {
+  font-family: 'Pretendard-Regular';
   min-width: 1120px;
   height: 5000px;
 }
@@ -177,7 +178,7 @@ header .inner .glove {
 .section2 .account_text {
   position: absolute;
   top: 220px;
-  right: 110px;
+  right: 160px;
 
 }
 .section2 .account_text h3{
@@ -195,11 +196,11 @@ header .inner .glove {
   background-color: #f6f6f6;
   font-size: 16px;
   border-radius: 10px;
-  margin: 0 10px;
   padding: 20px 45px;
   align-self: center;
   position: absolute;
   top: 210px;
+  right: 109px;
 }
 .section2 .account_text .account-btn:hover{
   text-decoration: underline;
@@ -207,8 +208,8 @@ header .inner .glove {
 .section2 .account_text .left{
   width: 6px;
   height: 9px;
-  left: 230px;
-  top: 237px;
+  left: 195px;
+  top: 236px;
   position: absolute;
   overflow: hidden;
 }         
@@ -260,7 +261,7 @@ header .inner .glove {
   padding: 16px 50px;
   align-self: center;
   position: absolute;
-  top: 210px;
+  top: 200px;
   left: -10px;
 }
 .section3 .deposit_text .deposit-btn1:hover{
@@ -274,7 +275,7 @@ header .inner .glove {
   padding: 16px 50px;
   align-self: center;
   position: absolute;
-  top: 210px;
+  top: 200px;
   left: 160px;
 }
 .section3 .deposit_text .deposit-btn2:hover{
@@ -283,16 +284,16 @@ header .inner .glove {
 .section3 .deposit_text .left1{
   width: 6px;
   height: 9px;
-  left: 120px;
-  top: 233px;
+  left: 110px;
+  top: 221px;
   position: absolute;
   overflow: hidden;
 }         
 .section3 .deposit_text .left2{
   width: 6px;
   height: 9px;
-  left: 290px;
-  top: 233px;
+  left: 280px;
+  top: 221px;
   position: absolute;
   overflow: hidden;
 }         
@@ -326,7 +327,7 @@ header .inner .glove {
 .section4 .book_text {
   position: absolute;
   top: 210px;
-  right: 125px;
+  right: 170px;
 
 }
 .section4 .book_text h3{
@@ -348,7 +349,7 @@ header .inner .glove {
   align-self: center;
   position: absolute;
   top: 240px;
-  right: 120px;
+  right: 73px;
 }
 .section4 .book_text .book-btn:hover{
   text-decoration: underline;
@@ -462,6 +463,7 @@ header .inner .glove {
   width: 408px;
   height: 715px;
   position: absolute;
+  top: 50px;
   left: 150px;
 }
 .section6 .Overseas_text {
@@ -489,7 +491,7 @@ header .inner .glove {
   align-self: center;
   position: absolute;
   top: 288px;
-  right: 90px;
+  right: 61px;
 }
 .section6 .Overseas_text .Overseas-btn:hover{
   text-decoration: underline;
