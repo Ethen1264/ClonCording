@@ -72,7 +72,8 @@ header .inner .glove {
   padding-left: 30px;
   padding-right: 20px;
 }
-/* section */
+
+/* Section rion line */
 .section1 .rion_container {
   padding-top: 81px;
   background-color: rgb(255, 239, 107);
@@ -138,7 +139,8 @@ header .inner .glove {
 .section1 .rion_container ul li .app_store:hover {
   text-decoration: underline;
 }
-/* section2 */
+
+/* Section account line */
 .section2  {
   margin-top: 165px;
   height: 720px;
@@ -182,6 +184,67 @@ header .inner .glove {
   text-decoration: underline;
 }
 .section2 .account_text .left{
+  width: 6px;
+  height: 9px;
+  left: 230px;
+  top: 237px;
+  position: absolute;
+}         
+
+/* first middle line */
+
+.first_middle_line {
+  margin-top: 30px;
+  background-color: #fafafa;
+  width: 100%;
+  height: 32px;
+  padding: 0;
+}
+
+/* Section account line */
+
+.section3  {
+  height: 750px;
+  position: relative;
+}
+.section3 .Deposit_phone img{
+  width: 409px;
+  height: 722px;
+  position: absolute;
+  top: 10px;
+  right: 316px;
+}
+.section3 .account_text {
+  position: absolute;
+  top: 220px;
+  right: 360px;
+
+}
+.section3 .account_text h3{
+  font-size: 40px;
+  margin: 0;
+}
+.section3 .account_text p{
+  font-size: 15px;
+  line-height: 1.7;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.section3 .account_text .account-btn{
+
+  background-color: #f6f6f6;
+  font-size: 16px;
+  border-radius: 10px;
+  margin: 0 10px;
+  padding: 20px 45px;
+  align-self: center;
+  position: absolute;
+  top: 210px;
+}
+.section3 .account_text .account-btn:hover{
+  text-decoration: underline;
+}
+.section3 .account_text .left{
   width: 6px;
   height: 9px;
   left: 230px;
