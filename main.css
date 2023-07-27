@@ -74,43 +74,48 @@ header .inner .glove {
 }
 
 /* Section rion line */
-.section1 .rion_container {
-  padding-top: 81px;
+.section1 {
+  padding: 1px;
   background-color: rgb(255, 239, 107);
-  height: 720px;
-  
-}
-.section1 .rion_container .rion_img {
-  position: absolute;
-  width: 1200px;
-  height: 884px;
-  display: block;
-  background-repeat: no-repeat;
-  padding: 0 245px;
+  height: 800px;
 }
 .section1 .rion_container {
   position: relative;
+  max-width: 1200px;
+  padding-top: 81px;
+  height: 884px;
+  margin: auto;
 }
-.section1 .rion_container .main_text {
+.section1 .rion_container .rion_img {
+  position: relative;
+  width: 1200px;
+  height: 884px;
+  display: block;
+  background-repeat: no-repeat; 
+  margin: auto;
+}
+.section1 .rion_container .text_container {
+  position: absolute;
+  top: 220px;
+  left: 90px;
+}
+.section1 .rion_container .text_container .main_text {
   font-size: 49px;
-  position: absolute;
-  top: 170px;
-  left: 330px;
+  margin: 0;
+
 }
-.section1 .rion_container .sub_text1 {
-  position: absolute;
-  top: 355px;
-  left: 335px;
+.section1 .rion_container .text_container .sub_text1 {
+  margin: 0;
+  padding-top: 20px;
 }
-.section1 .rion_container .sub_text2 {
-  position: absolute;
-  top: 430px;
-  left: 335px;
+.section1 .rion_container .text_container .sub_text2 {
+  margin: 0;
+  padding-top: 15px;
 }
 .section1 .rion_container ul li .google_play {
   position: absolute;
-  top: 562px;
-  left: 325px;
+  top: 340px;
+  left: -10px;
   border: 1px solid rgba(255, 255, 255, .3);
   background-color: #fff;
   font-size: 16.2px;
@@ -118,45 +123,49 @@ header .inner .glove {
   font-weight: bold;
   margin: 0 10px;
   padding: 17px 43px;
-  align-self: center;
+  align-self: center; 
 }
 .section1 .rion_container ul li .google_play:hover {
   text-decoration: underline;
 }
 .section1 .rion_container ul li .app_store {
   position: absolute;
-  top: 562px;
-  left: 516px;
+  top: 340px;
+  left: 180px;
   border: 1px solid rgba(255, 255, 255, .3);
   background-color: #fff;
   font-size: 16.2px;
   border-radius: 12px;
   font-weight: bold;
   margin: 0 10px;
-  padding: 17px 50px;
-  align-self: center;
+  padding: 17px 43px;
+  align-self: center; 
 }
 .section1 .rion_container ul li .app_store:hover {
   text-decoration: underline;
 }
-
 /* Section account line */
 .section2  {
-  margin-top: 165px;
-  height: 720px;
+  margin-top: 160px;
+  height: 745px;
   position: relative;
+}
+.section2 .account_container {
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
 }
 .section2 .account_phone img{
   width: 473px;
   height: 678px;
   position: absolute;
-  top: 36px;
-  left: 345px;
+  top: 30px;
+  left: 100px;
 }
 .section2 .account_text {
   position: absolute;
   top: 220px;
-  right: 360px;
+  right: 110px;
 
 }
 .section2 .account_text h3{
@@ -191,63 +200,96 @@ header .inner .glove {
   position: absolute;
 }         
 
-/* first middle line */
+/* middle line */
 
 .first_middle_line {
-  margin-top: 30px;
   background-color: #fafafa;
   width: 100%;
   height: 32px;
   padding: 0;
 }
 
-/* Section account line */
+/* Section deposit line */
 
 .section3  {
+  margin-top: 0;
   height: 750px;
   position: relative;
 }
-.section3 .Deposit_phone img{
+.section3 .deposit_container {
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+}
+.section3 .deposit_phone img{
   width: 409px;
   height: 722px;
   position: absolute;
-  top: 10px;
-  right: 316px;
+  top: 20px;
+  right: 70px;
+  margin-left: 120px;
 }
-.section3 .account_text {
+.section3 .deposit_text {
   position: absolute;
-  top: 220px;
-  right: 360px;
+  top: 180px;
+  left: 130px;
 
 }
-.section3 .account_text h3{
+.section3 .deposit_text h3{
   font-size: 40px;
   margin: 0;
 }
-.section3 .account_text p{
+.section3 .deposit_text p{
   font-size: 15px;
   line-height: 1.7;
   margin-top: 20px;
   margin-bottom: 0;
 }
-.section3 .account_text .account-btn{
-
+.section3 .deposit_text .deposit-btn1{
   background-color: #f6f6f6;
   font-size: 16px;
   border-radius: 10px;
   margin: 0 10px;
-  padding: 20px 45px;
+  padding: 16px 50px;
   align-self: center;
   position: absolute;
   top: 210px;
+  left: -10px;
 }
-.section3 .account_text .account-btn:hover{
+.section3 .deposit_text .deposit-btn1:hover{
   text-decoration: underline;
 }
-.section3 .account_text .left{
+.section3 .deposit_text .deposit-btn2{
+  background-color: #f6f6f6;
+  font-size: 16px;
+  border-radius: 10px;
+  margin: 0 10px;
+  padding: 16px 50px;
+  align-self: center;
+  position: absolute;
+  top: 210px;
+  left: 160px;
+}
+.section3 .deposit_text .deposit-btn2:hover{
+  text-decoration: underline;
+}
+.section3 .deposit_text .left1{
   width: 6px;
   height: 9px;
-  left: 230px;
-  top: 237px;
+  left: 120px;
+  top: 233px;
   position: absolute;
+}         
+.section3 .deposit_text .left2{
+  width: 6px;
+  height: 9px;
+  left: 290px;
+  top: 233px;
+  position: absolute;
+}         
+.section3 .deposit_text .time_line{
+  width: 440px;
+  position: absolute;
+  top: 310px;
+  left: -5px;
 }         
