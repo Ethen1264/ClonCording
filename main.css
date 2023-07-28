@@ -58,13 +58,14 @@ header .inner .logo {
 header .inner .nav_inner {
   margin-left: auto;
   display: flex;
-}
+  z-index: 1;
+} 
 header .inner .nav_inner .text{
   margin: 0 10px;
   padding: 0 10px;
   align-self: center;
 }
-header .inner .nav_inner .text:hover{
+header .inner .nav_inner .text:hover a{
   text-decoration: underline;
 }
 header .inner .submit-btn {
@@ -133,7 +134,6 @@ header .inner .glove {
   font-size: 16.2px;
   border-radius: 12px;
   font-weight: bold;
-  margin: 0 10px;
   padding: 17px 43px;
   align-self: center; 
 }
@@ -149,7 +149,6 @@ header .inner .glove {
   font-size: 16.2px;
   border-radius: 12px;
   font-weight: bold;
-  margin: 0 10px;
   padding: 17px 43px;
   align-self: center; 
 }
@@ -503,4 +502,4 @@ header .inner .glove {
   top: 313px;
   position: absolute;
   overflow: hidden;
-}      
+}
