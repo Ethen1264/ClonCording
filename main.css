@@ -8,7 +8,7 @@
 body {
   font-family: 'Pretendard-Regular';
   min-width: 1120px;
-  height: 5000px;
+  height: 9000px;
 }
 
 body, ul, li {
@@ -503,3 +503,137 @@ header .inner .glove {
   position: absolute;
   overflow: hidden;
 }
+
+/* Section documents line */
+.section7  {
+  height: 750px;
+  position: relative;
+}
+.section7 .back-color {
+  height: 930px;
+  background-color: #559cde;
+}
+.section7 .documents_container {
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+}
+.section7 .documents_phone img{
+  position: absolute;
+  overflow: hidden;
+  width: 429px;
+  height: 563px;
+  top: 367px;
+  left: 30%;
+}
+.section7 .documents_text {
+  color: #fff;
+  position: absolute;
+  padding-top: 160px;
+  left: 170px;
+
+}
+.section7 .documents_text h3{
+  font-size: 40px;
+  margin: 0;
+}
+.section7 .documents_text p{
+  opacity: 60%;
+  font-size: 15px;
+  line-height: 1.7;
+  margin-top: 24px;
+  position: absolute;
+  left: 200px;
+}
+.section7 .documents_text .documents-btn1{
+
+  background-color: rgba(255,255,255,0.09);
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 15px 28px;
+  align-self: center;
+  position: absolute;
+  top: 287px;
+  left: 60px;
+}
+.section7 .documents_text .documents-btn1:hover{
+  text-decoration: underline;
+}
+.section7 .documents_text .documents-btn2{
+
+  background-color: rgba(255,255,255,0.09);
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 15px 55px;
+  align-self: center;
+  position: absolute;
+  top: 287px;
+  left: 237px;
+}
+.section7 .documents_text .documents-btn2:hover{
+  text-decoration: underline;
+}
+.section7 .documents_text .documents-btn3{
+
+  background-color: rgba(255,255,255,0.09);
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 15px 32px;
+  align-self: center;
+  position: absolute;
+  top: 287px;
+  left: 409px;
+}
+.section7 .documents_text .documents-btn3:hover{
+  text-decoration: underline;
+}
+.section7 .documents_text .documents-btn4{
+
+  background-color: rgba(255,255,255,0.09);
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 15px 28px;
+  align-self: center;
+  position: absolute;
+  top: 287px;
+  left: 580px;
+}
+.section7 .documents_text .documents-btn4:hover{
+  text-decoration: underline;
+}
+.section7 .documents_text .documents_left1{
+  width: 6px;
+  height: 9px;
+  left: 210px;
+  top: 307px;
+  position: absolute;
+  overflow: hidden;
+
+}      
+.section7 .documents_text .documents_left2{
+  width: 6px;
+  height: 9px;
+  left: 355px;
+  top: 307px;
+  position: absolute;
+  overflow: hidden;
+
+}      
+.section7 .documents_text .documents_left3{
+  width: 6px;
+  height: 9px;
+  left: 550px;
+  top: 307px;
+  position: absolute;
+  overflow: hidden;
+
+}      
+.section7 .documents_text .documents_left4{
+  width: 6px;
+  height: 9px;
+  left: 730px;
+  top: 307px;
+  position: absolute;
+  overflow: hidden;
+
+}      
